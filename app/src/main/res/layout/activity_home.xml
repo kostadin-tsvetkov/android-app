@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/backgroundColor"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="120dp">
+
+        <Button
+            android:id="@+id/button_lecturers"
+            android:layout_width="260dp"
+            android:layout_height="70dp"
+            android:textSize="20sp"
+            android:text="@string/lecturers_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:onClick="onClickLectorsButton"/>
+
+        <Button android:id="@+id/button_groups"
+            android:layout_width="260dp"
+            android:layout_height="70dp"
+            android:textSize="20sp"
+            android:text="@string/groups_button"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_background"
+            android:onClick="onClickGroupsButton"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
